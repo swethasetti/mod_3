@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="eng">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>assignment</title>
+	<style>
+	p{
+	font-size: 16px;
+	background-color:purple;
+	font-family: comic sans ms;
+	color: black;
+}
+	#header-nav{
+	background-color:skyblue;
+	border-radius:0;
+	border: 0;
+}
+.dropbtn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #ddd;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {background-color: #3e8e41;}
+</style>
+</head>
+<body>
+	<header>
+		<nav id="header-nav" class="navbar navbar-default">
+			<div class="container">
+				<div class ="navbar-header">
+			<h1> FOOD,LLC</h1>
+		</div>
+			<div class="dropdown">
+				<button class="dropbtn">Dropdown</button>
+  <div class="dropdown-content">
+    <a href="#">Chicken</a>
+    <a href="#">Beef</a>
+    <a href="#">Sushi</a>
+ </div>
+</div>
+	</header>
+</body>
